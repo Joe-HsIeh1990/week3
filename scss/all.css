@@ -1472,7 +1472,7 @@ a {
 
 .header {
   height: 304px;
-  background: url("/images/72@2x.png") center center no-repeat;
+  background: url("../images/72@2x.png") center center no-repeat;
   background-size: cover;
 }
 
