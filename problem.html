@@ -11,7 +11,7 @@
 
 <body>
     <nav class="nav d-flex flex-wrap align-items-center justify-content-betweem">
-        <div class="nav-menu"><a href="#"><img
+        <div class="nav-menu"><a href="./index.html"> <img
                     src="https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/week3/icon-menu.svg"
                     alt=""></a></div>
         <div class="nav-img text-center d-flex justify-content-center">
@@ -132,7 +132,10 @@
             });
             $('a').click((e) => {
                 e.preventDefault();
-            });
+            }); 
+            $('.nav-menu').click(() => {
+                $('.nav-content').slideToggle()
+            })
         })
     </script>
 </body>
